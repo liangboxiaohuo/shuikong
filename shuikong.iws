@@ -32,15 +32,15 @@
     <file path="/InvIntData.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399602641781" ignored="false" />
     <file path="/InvItem.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400387322051" ignored="false" />
     <file path="/InvInvInfo.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1401074216725" ignored="false" />
-    <file path="/Dummy.txt" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399600115387" ignored="false" />
+    <file path="/Dummy.txt" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403486480659" ignored="false" />
     <file path="$PROJECT_DIR$/../fbi-feb/main/java/gateway/sbs/txn/action/Txna101Action.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396406968207" ignored="false" />
     <file path="/Txna101Action.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396406957877" ignored="false" />
     <file path="/printInvoice.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1401079791414" ignored="false" />
     <file path="/invoiceQry.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400663715753" ignored="false" />
     <file path="$PROJECT_DIR$/../hims/web/UI/hims/assetQry.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396422540259" ignored="false" />
-    <file path="/prjcfg.properties" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1401946977126" ignored="false" />
+    <file path="/prjcfg.properties" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403509563841" ignored="false" />
     <file path="/applicationContext.xml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1398228220597" ignored="false" />
-    <file path="/fragment.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400384426417" ignored="false" />
+    <file path="/fragment.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403486485847" ignored="false" />
     <file path="/ShuiKongService.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399635630530" ignored="false" />
     <file path="/faces-config.xml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1397612481228" ignored="false" />
     <file path="/a.dummy" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1401074270940" ignored="false" />
@@ -68,7 +68,7 @@
     <file path="/TestCalander.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396581407542" ignored="false" />
     <file path="$PROJECT_DIR$/../example/commontest/src/action/TestRandom.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396589749943" ignored="false" />
     <file path="/TestRandom.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396589713104" ignored="false" />
-    <file path="/StaticItemRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400251128788" ignored="false" />
+    <file path="/StaticItemRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403253523861" ignored="false" />
     <file path="/yxfunc.js" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400663692080" ignored="false" />
     <file path="/test.html" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396922965578" ignored="false" />
     <file path="$PROJECT_DIR$/../example/dom4jTest/src/TestDom4j.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396938806831" ignored="false" />
@@ -182,7 +182,7 @@
     <file path="/StaticInvItem.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400256336384" ignored="false" />
     <file path="/StaticInvItemRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399601688612" ignored="false" />
     <file path="/replenishinput.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400912354716" ignored="false" />
-    <file path="/CommonService.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1401074446183" ignored="false" />
+    <file path="/CommonService.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403253031908" ignored="false" />
     <file path="/PriceBean.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399634734900" ignored="false" />
     <file path="/PriceBeanRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399635031122" ignored="false" />
     <file path="/CommonAction.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1401083603452" ignored="false" />
@@ -262,8 +262,22 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/service/CommonService.java" line="312" class="service.CommonService" package="service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -298,22 +312,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/service/CommonService.java" line="312" class="service.CommonService" package="service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -323,74 +323,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="printInvoice.xhtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/printInvoice.xhtml">
+      <file leaf-file-name="CommonService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/CommonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="57" selection-start="7209" selection-end="7209" vertical-scroll-proportion="0.08169935">
+            <state line="25" column="35" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1401084368343" expanded="true" signature="1169:1181" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="1267:1277" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="1412:1429" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="1574:1591" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="2040:2057" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="2209:2226" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="2373:2390" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="2849:2866" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="3322:3339" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="3740:3758" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="3820:3831" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="4016:4027" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="4234:4263" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="4484:4541" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="5470:5485" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="5669:5686" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="5869:5885" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="6165:6182" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="6364:6381" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="6562:6579" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="7122:7150" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="7397:7425" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="7590:7618" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="8515:8530" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="8724:8741" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="8934:8951" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="9403:9420" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="9738:9755" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="10068:10083" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="10798:10855" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="11347:11364" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="11579:11596" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="11831:11848" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="12056:12073" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="12389:12406" placeholder="{...}" />
-                <marker date="1401084368343" expanded="true" signature="12721:12738" placeholder="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonAction.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CommonAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/action/CommonAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="429" column="194" selection-start="15318" selection-end="15325" vertical-scroll-proportion="314.76923">
+            <state line="427" column="0" selection-start="15035" selection-end="15112" vertical-scroll-proportion="0.27833334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RiService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/RiService.java">
+      <file leaf-file-name="prjcfg.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/prjcfg.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/CommonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="250" selection-start="899" selection-end="923" vertical-scroll-proportion="0.0">
+            <state line="1" column="73" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -417,7 +373,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/bean/StaticInvItem.java" />
-        <option value="$PROJECT_DIR$/src/rowmapper/StaticItemRowMapper.java" />
         <option value="$PROJECT_DIR$/web/pages/left.jsp" />
         <option value="$PROJECT_DIR$/src/service/RiService.java" />
         <option value="$PROJECT_DIR$/src/rowmapper/InvItemRowMapper.java" />
@@ -428,9 +383,10 @@
         <option value="$PROJECT_DIR$/src/bean/InvInvInfo.java" />
         <option value="$PROJECT_DIR$/src/rowmapper/InvInvInfoRowMapper.java" />
         <option value="$PROJECT_DIR$/src/action/RiAction.java" />
-        <option value="$PROJECT_DIR$/src/service/CommonService.java" />
         <option value="$PROJECT_DIR$/web/printInvoice.xhtml" />
         <option value="$PROJECT_DIR$/src/action/CommonAction.java" />
+        <option value="$PROJECT_DIR$/src/rowmapper/StaticItemRowMapper.java" />
+        <option value="$PROJECT_DIR$/src/service/CommonService.java" />
         <option value="$PROJECT_DIR$/src/prjcfg.properties" />
       </list>
     </option>
@@ -499,14 +455,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="shuikong" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -585,19 +543,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
-    <property name="last_opened_file_path" value="D:/jar_lib/ojdbc6.jar" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="D:/jar_lib/ojdbc6.jar" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="shuikong" />
     <property name="Database.TableEditor.Splitter" value="0.90000004" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -615,8 +575,8 @@
     <property name="TODO_SCOPE" value="All" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -651,6 +611,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -679,19 +652,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -712,13 +672,6 @@
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -742,10 +695,11 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -755,7 +709,13 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat 7.0_32" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0_32">
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 7.0_32" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat_7.0_32">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shuikong" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -884,7 +844,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -892,20 +852,20 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17396908" sideWeight="0.43793583" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.85913527" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48675033" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35843793" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5620642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40167364" sideWeight="0.49806702" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26159793" sideWeight="0.55788004" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.110180415" sideWeight="0.63458854" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38493723" sideWeight="0.4975" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10599721" sideWeight="0.4975" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26159793" sideWeight="0.57182705" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26159793" sideWeight="0.5760112" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40012887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16430412" sideWeight="0.51324964" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16430412" sideWeight="0.8940028" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42398885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5760112" order="7" side_tool="false" content_ui="combo" x="606" y="71" width="388" height="717" />
@@ -993,54 +953,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/yxfunc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="838" selection-end="838" vertical-scroll-proportion="0.5090016" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/replenishinput.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="46" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.043327555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/getbidata.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="51" selection-start="2899" selection-end="2899" vertical-scroll-proportion="0.044326242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/InvInvInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="982" selection-end="982" vertical-scroll-proportion="0.31742242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/RiAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="41" selection-start="3126" selection-end="3126" vertical-scroll-proportion="0.23866348">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rowmapper/StaticInvItemRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rowmapper/StaticItemRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="0.23148148" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rowmapper/InvInvInfoRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.23866348" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="8" selection-start="3169" selection-end="3169" vertical-scroll-proportion="0.33174226" />
@@ -1058,75 +970,86 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/CommonService.java">
+    <entry file="file://$PROJECT_DIR$/web/printInvoice.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="250" selection-start="899" selection-end="923" vertical-scroll-proportion="0.0">
+        <state line="83" column="67" selection-start="4096" selection-end="4096" vertical-scroll-proportion="-0.7352941">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_13/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="559" column="31" selection-start="16550" selection-end="16550" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/RiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="-0.27056277">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/CommonAction.java">
+    <entry file="jar://C:/Java/jdk1.7.0_13/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="429" column="194" selection-start="15318" selection-end="15325" vertical-scroll-proportion="314.76923">
+        <state line="522" column="11" selection-start="23527" selection-end="23527" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp.jar!/org/apache/commons/dbcp/DelegatingResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="28" selection-start="3083" selection-end="3083" vertical-scroll-proportion="-6.16" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring.jar!/org/springframework/jdbc/core/RowMapperResultSetExtractor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="644" selection-end="644" vertical-scroll-proportion="0.6628131" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="26" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.049407113" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rowmapper/StaticItemRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="80" selection-start="374" selection-end="374" vertical-scroll-proportion="0.40257353" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/InvItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.04708098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/getbidata.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="54" selection-start="2142" selection-end="2142" vertical-scroll-proportion="2.009804">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/prjcfg.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.22058824">
+        <state line="1" column="73" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/printInvoice.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/service/CommonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="57" selection-start="7209" selection-end="7209" vertical-scroll-proportion="0.08169935">
+        <state line="25" column="35" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1401084368343" expanded="true" signature="1169:1181" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="1267:1277" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="1412:1429" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="1574:1591" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="2040:2057" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="2209:2226" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="2373:2390" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="2849:2866" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="3322:3339" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="3740:3758" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="3820:3831" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="4016:4027" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="4234:4263" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="4484:4541" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="5470:5485" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="5669:5686" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="5869:5885" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="6165:6182" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="6364:6381" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="6562:6579" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="7122:7150" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="7397:7425" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="7590:7618" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="8515:8530" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="8724:8741" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="8934:8951" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="9403:9420" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="9738:9755" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="10068:10083" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="10798:10855" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="11347:11364" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="11579:11596" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="11831:11848" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="12056:12073" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="12389:12406" placeholder="{...}" />
-            <marker date="1401084368343" expanded="true" signature="12721:12738" placeholder="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/CommonAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="427" column="0" selection-start="15035" selection-end="15112" vertical-scroll-proportion="0.27833334">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1106,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.7_32</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1195,7 +1118,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|shuikong</last-edited>
+          <last-edited>shuikong</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

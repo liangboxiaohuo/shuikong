@@ -35,7 +35,7 @@ public class CommonService {
      * 从bi获取数据并且导入到本地数据库
      */
     public int importToDB() throws Exception {
-        String sqlStr = "INSERT INTO inv_intdata (pkid,custcode,custname,txndate,intamt,txntype,currencytype,iounum) SELECT lpad(invrs_seq.nextval,15,'0'),t.csm_code,t.csm_name,to_char(t.biz_date,'yyyy-mm-dd'),t.interest,t.业务类别代码,t.cur_code,t.lnci_no FROM bi.v_ss_interest@haierbi t WHERE to_char(t.biz_date,'yyyy-mm-dd')  > (select max(t.txndate) from INV_INTDATA t)";
+        String sqlStr = "INSERT INTO inv_intdata (pkid,custcode,custname,txndate,intamt,syamt,txntype,currencytype,iounum) SELECT lpad(invrs_seq.nextval,15,'0'),t.csm_code,t.csm_name,to_char(t.biz_date,'yyyy-mm-dd'),t.interest,t.rtnaddpint,t.业务类别代码,t.cur_code,t.lnci_no FROM bi.v_ss_interest@haierbi t WHERE to_char(t.biz_date,'yyyy-mm-dd')  > (select max(t.txndate) from INV_INTDATA t)";
         return jdbcTemplate.update(sqlStr);
     }
 
@@ -152,7 +152,7 @@ public class CommonService {
      */
     public List<InvItem> staticInvItems(InvIntDataQryCond invIntDataQryCond, BigDecimal curRat) {
         String txnDateEndTmp = chgDate(invIntDataQryCond.getTxnDateEnd());
-        StringBuffer sb = new StringBuffer("SELECT t.custcode,tab.custname as custname,t.txntype AS itemcode," + curRat + "*sum(t.intamt) AS price  FROM inv_intdata t,(select t.CUSTCODE,max(t.custname) as custname from INV_INTDATA t where t.txndate = (select max(txndate) from INV_INTDATA where custcode = t.CUSTCODE)  group by t.CUSTCODE) tab  WHERE tab.custcode = t.custcode and  t.itemstate = '1' ");
+        StringBuffer sb = new StringBuffer("SELECT t.custcode,tab.custname as custname,t.txntype AS itemcode," + curRat + "*sum(t.intamt + t.syamt) AS price  FROM inv_intdata t,(select t.CUSTCODE,max(t.custname) as custname from INV_INTDATA t where t.txndate = (select max(txndate) from INV_INTDATA where custcode = t.CUSTCODE)  group by t.CUSTCODE) tab  WHERE tab.custcode = t.custcode and  t.itemstate = '1' ");
         if (!"".equals(invIntDataQryCond.getCustName().trim())) {
             String custNameTmp = invIntDataQryCond.getCustName().trim().replaceAll("\\s+", " ");
             if (custNameTmp.contains(" ")) {

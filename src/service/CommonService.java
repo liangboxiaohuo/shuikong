@@ -372,7 +372,7 @@ public class CommonService {
         return (String) jdbcTemplate.queryForObject(selSql, String.class);
     }
 
-    public BigDecimal getCurRat(String curratDate, String curcde) {
+    public BigDecimal getCurRat(String curratDate, String curcde) throws Exception{
         String sqlStr = "select t.CURRAT from SBS_ACTCXR t where t.TXNDATE = '" + curratDate + "' and t.CURCDE = '" + curcde + "' and t.SECCCY = '001'";
         Map<String, BigDecimal> map = jdbcTemplate.queryForMap(sqlStr);
         if (map.get("CURRAT") == null) {

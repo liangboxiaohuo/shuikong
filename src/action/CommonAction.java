@@ -206,7 +206,7 @@ public class CommonAction {
     /**
      * 获取汇率
      */
-    public BigDecimal getCurRat() {
+    public BigDecimal getCurRat() throws Exception {
         BigDecimal currat;
         if (invIntDataQryCond.getCurrencyType().equals("CNY")) {
             currat = new BigDecimal("1");
@@ -248,7 +248,13 @@ public class CommonAction {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            curRat = getCurRat();
+            try {
+                curRat = getCurRat();
+            } catch (Exception e) {
+                addMessage(FacesMessage.SEVERITY_ERROR, "汇率不存在!");
+                logger.error(new Date().toString() + " 汇率不存在!");
+                return;
+            }
             List<InvItem> invItems = commonService.staticInvItems(invIntDataQryCond, curRat);
             if (!invItems.isEmpty()) {
                 fillDatas(invItems);

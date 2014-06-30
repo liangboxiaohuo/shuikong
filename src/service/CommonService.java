@@ -211,7 +211,7 @@ public class CommonService {
     public void addInvInvInfo(InvInvInfo invInfo) throws Exception {
         String fadeCode = invInfo.getFadeInvCode() == null ? "" : invInfo.getFadeInvCode();
         String sqlStr = "INSERT INTO inv_invinfo (pkid,invcode,invno,invdate,opter,maccode,taxcode,invtype,custcode,custname,fadeinvcode,fadeinvno,buskind,payee,pricesum,invver,remark,invremark) VALUES ('" + invInfo.getPkid() + "','" + invInfo.getInvCode() + "','" + invInfo.getInvNo() + "','"
-                + invInfo.getInvDate() + "','" + invInfo.getOpter() + "','" + invInfo.getMacCode() + "','" + invInfo.getTaxCode() + "','" + invInfo.getInvType() + "','" + invInfo.getCustCode() + "','" + invInfo.getCustName() + "','" + fadeCode + "','" + invInfo.getFadeInvNo() + "','" + invInfo.getBusKind() + "','" + invInfo.getPayee() + "'," + invInfo.getPriceSum() + ",'1','" + invInfo.getRemark() + "','"+invInfo.getInvRemark()+"')";
+                + invInfo.getInvDate() + "','" + invInfo.getOpter() + "','" + invInfo.getMacCode() + "','" + invInfo.getTaxCode() + "','" + invInfo.getInvType() + "','" + invInfo.getCustCode() + "','" + invInfo.getCustName() + "','" + fadeCode + "','" + invInfo.getFadeInvNo() + "','" + invInfo.getBusKind() + "','" + invInfo.getPayee() + "'," + invInfo.getPriceSum() + ",'1','" + invInfo.getRemark() + "','" + invInfo.getInvRemark() + "')";
         jdbcTemplate.update(sqlStr);
     }
 
@@ -299,6 +299,7 @@ public class CommonService {
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.YEAR, Integer.parseInt(inputStr.substring(0, 4)));
         calendar.set(Calendar.MONTH, Integer.parseInt(inputStr.substring(5)));
+        calendar.set(Calendar.DATE, 1);
         String txnDateEndTmp = new SimpleDateFormat("yyyy-MM").format(calendar.getTime());
         return txnDateEndTmp;
     }
@@ -372,7 +373,7 @@ public class CommonService {
         return (String) jdbcTemplate.queryForObject(selSql, String.class);
     }
 
-    public BigDecimal getCurRat(String curratDate, String curcde) throws Exception{
+    public BigDecimal getCurRat(String curratDate, String curcde) throws Exception {
         String sqlStr = "select t.CURRAT from SBS_ACTCXR t where t.TXNDATE = '" + curratDate + "' and t.CURCDE = '" + curcde + "' and t.SECCCY = '001'";
         Map<String, BigDecimal> map = jdbcTemplate.queryForMap(sqlStr);
         if (map.get("CURRAT") == null) {

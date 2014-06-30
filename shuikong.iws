@@ -38,7 +38,7 @@
     <file path="/printInvoice.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1401079791414" ignored="false" />
     <file path="/invoiceQry.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400663715753" ignored="false" />
     <file path="$PROJECT_DIR$/../hims/web/UI/hims/assetQry.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396422540259" ignored="false" />
-    <file path="/prjcfg.properties" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403578022919" ignored="false" />
+    <file path="/prjcfg.properties" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1404118205683" ignored="false" />
     <file path="/applicationContext.xml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1398228220597" ignored="false" />
     <file path="/fragment.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403486485847" ignored="false" />
     <file path="/ShuiKongService.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399635630530" ignored="false" />
@@ -65,7 +65,7 @@
     <file path="/InvItemRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400387336180" ignored="false" />
     <file path="/InvIntDataRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399478188041" ignored="false" />
     <file path="$PROJECT_DIR$/../example/commontest/src/action/TestCalander.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396581503328" ignored="false" />
-    <file path="/TestCalander.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396581407542" ignored="false" />
+    <file path="/TestCalander.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1404116481667" ignored="false" />
     <file path="$PROJECT_DIR$/../example/commontest/src/action/TestRandom.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396589749943" ignored="false" />
     <file path="/TestRandom.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1396589713104" ignored="false" />
     <file path="/StaticItemRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403253523861" ignored="false" />
@@ -182,7 +182,7 @@
     <file path="/StaticInvItem.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400256336384" ignored="false" />
     <file path="/StaticInvItemRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399601688612" ignored="false" />
     <file path="/replenishinput.xhtml" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400912354716" ignored="false" />
-    <file path="/CommonService.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403577791168" ignored="false" />
+    <file path="/CommonService.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1404118136089" ignored="false" />
     <file path="/PriceBean.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399634734900" ignored="false" />
     <file path="/PriceBeanRowMapper.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1399635031122" ignored="false" />
     <file path="/CommonAction.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1403577927116" ignored="false" />
@@ -238,6 +238,7 @@
     <file path="F:/primefaces/src/org/primefaces/push/PushContextListener.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400560193483" ignored="false" />
     <file path="F:/primefaces/src/org/primefaces/push/PushRule.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400560193483" ignored="false" />
     <file path="F:/primefaces/src/org/primefaces/util/WidgetBuilder.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1400560194424" ignored="false" />
+    <file path="E:/workspace/example/commontest/src/action/TestCalander.java" changelist="52c13118-edae-4e24-b912-07ddd9a84aec" time="1404116581882" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,24 +263,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/service/CommonService.java" line="312" class="service.CommonService" package="service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -314,6 +298,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -326,7 +312,7 @@
       <file leaf-file-name="printInvoice.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/printInvoice.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="65" selection-start="4094" selection-end="4094" vertical-scroll-proportion="-5.147059">
+            <state line="83" column="67" selection-start="4096" selection-end="4096" vertical-scroll-proportion="-11.029411">
               <folding>
                 <marker date="1401084368343" expanded="true" signature="1169:1181" placeholder="{...}" />
                 <marker date="1401084368343" expanded="true" signature="1267:1277" placeholder="{...}" />
@@ -369,43 +355,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonAction.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CommonAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/action/CommonAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="253" column="63" selection-start="8675" selection-end="8675" vertical-scroll-proportion="-6.9615383">
+            <state line="257" column="59" selection-start="8841" selection-end="8841" vertical-scroll-proportion="0.5541872">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prjcfg.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/prjcfg.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="73" selection-start="137" selection-end="149" vertical-scroll-proportion="0.05787037">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getbidata.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/getbidata.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="73" selection-start="1222" selection-end="1222" vertical-scroll-proportion="-9.029411">
-              <folding>
-                <marker date="1400911315800" expanded="true" signature="948:960" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="1058:1068" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="1408:1426" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="1528:1557" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="1733:1762" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="1973:2002" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="2319:2376" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="3030:3047" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="3303:3320" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="3575:3592" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="3968:3985" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="4267:4284" placeholder="{...}" />
-                <marker date="1400911315800" expanded="true" signature="4536:4553" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -443,8 +397,8 @@
         <option value="$PROJECT_DIR$/src/action/RiAction.java" />
         <option value="$PROJECT_DIR$/web/printInvoice.xhtml" />
         <option value="$PROJECT_DIR$/src/rowmapper/StaticItemRowMapper.java" />
-        <option value="$PROJECT_DIR$/src/service/CommonService.java" />
         <option value="$PROJECT_DIR$/src/action/CommonAction.java" />
+        <option value="$PROJECT_DIR$/src/service/CommonService.java" />
         <option value="$PROJECT_DIR$/src/prjcfg.properties" />
       </list>
     </option>
@@ -513,8 +467,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -603,6 +555,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -910,20 +864,20 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17396908" sideWeight="0.43793583" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.85913527" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35843793" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34588563" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5620642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40167364" sideWeight="0.49806702" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26159793" sideWeight="0.55788004" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.110180415" sideWeight="0.63458854" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37656903" sideWeight="0.4975" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37656903" sideWeight="0.4975" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26159793" sideWeight="0.57182705" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26159793" sideWeight="0.5760112" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40012887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16430412" sideWeight="0.64156204" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16430412" sideWeight="0.62343097" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42398885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5760112" order="7" side_tool="false" content_ui="combo" x="606" y="71" width="388" height="717" />
@@ -1076,35 +1030,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/getbidata.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="73" selection-start="1222" selection-end="1222" vertical-scroll-proportion="-9.029411">
+        <state line="26" column="73" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1400911315800" expanded="true" signature="948:960" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="1058:1068" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="1408:1426" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="1528:1557" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="1733:1762" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="1973:2002" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="2319:2376" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="3030:3047" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="3303:3320" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="3575:3592" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="3968:3985" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="4267:4284" placeholder="{...}" />
-            <marker date="1400911315800" expanded="true" signature="4536:4553" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400911315800" expanded="false" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/CommonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="491" selection-end="491" vertical-scroll-proportion="0.29832935">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/printInvoice.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="65" selection-start="4094" selection-end="4094" vertical-scroll-proportion="-5.147059">
+        <state line="83" column="67" selection-start="4096" selection-end="4096" vertical-scroll-proportion="-11.029411">
           <folding>
             <marker date="1401084368343" expanded="true" signature="1169:1181" placeholder="{...}" />
             <marker date="1401084368343" expanded="true" signature="1267:1277" placeholder="{...}" />
@@ -1146,16 +1093,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/CommonAction.java">
+    <entry file="file://$PROJECT_DIR$/src/prjcfg.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="63" selection-start="8675" selection-end="8675" vertical-scroll-proportion="-6.9615383">
+        <state line="0" column="0" selection-start="0" selection-end="247" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/prjcfg.properties">
+    <entry file="file://$PROJECT_DIR$/src/service/CommonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="73" selection-start="137" selection-end="149" vertical-scroll-proportion="0.05787037">
+        <state line="313" column="0" selection-start="15729" selection-end="15729" vertical-scroll-proportion="1.3546798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/CommonAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="59" selection-start="8841" selection-end="8841" vertical-scroll-proportion="0.5541872">
           <folding />
         </state>
       </provider>
